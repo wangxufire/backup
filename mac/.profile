@@ -1,0 +1,9 @@
+#export DOCKER_HOST=tcp://172.17.6.242:2375
+export HOMEBREW_CASK_OPTS=--caskroom=/opt/homebrew-cask/Caskroom
+export GOPATH=/Users/madoka/Workspace/github/go
+export GOBIN=$GOPATH/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home
+export ANDROID=/Users/madoka/Library/Android/sdk/platform-tools
+export SENCHA=/opt/Sencha/Cmd
+export PATH=$PATH:$GOBIN:$ANDROID:$SENCHA
+# :/usr/local/opt/go/libexec/bin

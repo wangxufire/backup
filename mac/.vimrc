@@ -115,7 +115,7 @@
     "Plugin 'guileen/vim-node-dict'
     "Plugin 'HerringtonDarkholme/yats.vim'
     "Plugin 'junegunn/vim-easy-align'
-    "Plugin 'klen/python-mode'
+    Plugin 'klen/python-mode'
     "Plugin 'mattn/excelview-vim'
     "Plugin 'mattn/vim-maketable'
     "Plugin 'michalliu/jsoncodecs.vim'
@@ -237,11 +237,12 @@
     let &tags = &tags . ',' . gitroot . '/.git/tags'
   endif
   "colorscheme PaperColor
-  colorscheme monokain
+  "colorscheme monokain
   "colorscheme molokai
   "colorscheme desert256v2
-  "colorscheme desertEx
+  colorscheme desertEx
   "colorscheme desert
+  "colorscheme koehler
   set t_Co=256
   set nofoldenable                  " Auto fold code
   set foldlevel=1
@@ -351,7 +352,7 @@
     let g:syntastic_javascript_checkers = ['eslint']
     "let g:syntastic_javascript_jsxhint_exec = 'jsx-jshint-wrapper'
     let g:syntastic_python_checkers = ['pylint']
-    "let g:syntastic_python_python_exec="/usr/local/bin/python3"
+    let g:syntastic_python_python_exec="/usr/local/bin/python3"
     let g:syntastic_sass_checkers = ['sass', 'sassc']
     "let g:syntastic_scss_checkers = ['sass', 'sassc', 'scsslint']
     let g:syntastic_php_checkers = ['php']
