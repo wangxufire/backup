@@ -8,7 +8,7 @@
   <array>
     <string>/bin/bash</string>
     <string>-c</string>
-    <string>/usr/local/bin/brew cleanup;/usr/local/bin/brew cask cleanup</string>
+    <string>/usr/local/bin/proxychains4 /usr/local/bin/brew update;/usr/local/bin/proxychains4 /usr/local/bin/brew upgrade;/usr/local/bin/proxychains4 /usr/local/bin/brew cu -ay;/usr/local/bin/brew cleanup;/usr/local/bin/brew cask cleanup</string>
   </array>
   <key>RunAtLoad</key>
   <true/>
